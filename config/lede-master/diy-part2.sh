@@ -30,9 +30,7 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 #
 # Add luci-app-amlogic
 #svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
-svn co https://github.com/kenzok8/small/tree/master/luci-app-passwall package/luci-app-passwall
-svn co https://github.com/kenzok8/small/tree/master/luci-app-ssr-plus package/luci-app-ssr-plus
-svn co https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-ddnsto package/luci-app-ddnsto
+
 
 
 
